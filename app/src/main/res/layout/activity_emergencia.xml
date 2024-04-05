@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="452dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvMove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esperando movimientos..."
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btCalibrar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#7ABCB5"
+        android:onClick="onClickCalibration"
+        android:text="@string/Calibration" />
+
+    <Button
+        android:id="@+id/btDisconnected"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:backgroundTint="#50B1A8"
+        android:onClick="onClickDisconnectBt"
+        android:text="@string/Menu" />
+
+</LinearLayout>

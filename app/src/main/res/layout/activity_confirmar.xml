@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="572dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etEmergencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:ems="10"
+            android:inputType="text"
+            android:text="@string/ConfirmWarning"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:text="@string/ConfirmWarning" />
+
+        <EditText
+            android:id="@+id/etInfo"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:inputType="text"
+            android:text="@string/NoMovement"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/etImage"
+            android:layout_width="match_parent"
+            android:layout_height="476dp"
+            android:src="@drawable/aamb" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btStopEmergencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#50B1A8"
+            android:onClick="onClickStopEmerg"
+            android:text="@string/StopWarning" />
+    </LinearLayout>
+
+</LinearLayout>

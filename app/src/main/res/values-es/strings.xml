@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hexiwear_Read_app</string>
+    <string name="Title">LECTURA SENSORES DE MOVIMIENTO</string>
+    <string name="EnableBluetooth">Activar Bluetooth</string>
+    <string name="ScanDevices">Escanear dispositivos</string>
+    <string name="Name">Nombre</string>
+    <string name="Address">Direccion</string>
+    <string name="Connect">Conectar</string>
+    <string name="NO_BLUETOOTH">Este dispositivo no tiene Bluetooth</string>
+    <string name="Record">Grabar</string>
+    <string name="Stop">Parar</string>
+    <string name="Disconnect">Desconectar</string>
+    <string name="DeviceConnected">Conectado a Hexiwear</string>
+    <string name="DeviceDisconnect">Desconectado de Hexiwear</string>
+    <string name="FailRead">Lectura fallida</string>
+    <string name="InvalidAcData">"Longitud de los datos del acelerometro invalida "</string>
+    <string name="InvalidMagData">Longitud de los datos del magnetometro invalida</string>
+    <string name="InvalidGyrData">Longitud de los datos del giroscopio invalida</string>
+    <string name="NotFound">Caracteristica no encontrada</string>
+    <string name="ServiceNF">Servicio no encontrado</string>
+    <string name="ErrorFile">Error creando el fichero</string>
+    <string name="UnknowFormart">Caracteristica desconocida</string>
+    <string name="InvalidPressData">Longitud de los datos de presion invalida</string>
+    <string name="ConfirmWarning">Confirmando emergencia...</string>
+    <string name="NoMovement">Repita el movimiento para confirmar emergencia</string>
+    <string name="StopWarning">No es una emergencia</string>
+    <string name="UserName">Nombre</string>
+    <string name="UserSurName">Apellidos</string>
+    <string name="ContactPhone">Numero de Contacto</string>
+    <string name="UserData">Introduzca datos de usuario</string>
+    <string name="EmptyFile">Archivo Vacio</string>
+    <string name="EmergencyMode">Modo Emergencia</string>
+    <string name="RecordMode">Modo Grabar</string>
+    <string name="Menu">Volver al menu inicial</string>
+    <string name="MotionTag">Etiqueta del movimiento</string>
+    <string name="Tag">Etiqueta</string>
+    <string name="SendTag">Añadir Etiqueta al archivo</string>
+    <string name="Calibration">Autocalibración de umbrales</string>
+    <string name="MovementDescription">Ponga el brazo hacia abajo y gire la muñeca rápidamente, rotando de izquierda a derecha durante al menos 6 segundos</string>
+    <string name="Start">Empezar</string>
+    <string name="Umbrales">Umbrales</string>
+    <string name="DefaultThersholds">Reestablecer umbrales por defecto</string>
+    <string name="RequiredUserData">Debe introducir los datos de usuario</string>
+    <string name="IncorrectData">El formato de los datos es incorrecto</string>
+</resources>
